@@ -1,0 +1,124 @@
+.banner { 
+    background: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg) no-repeat center center;
+background-size: cover;
+padding-top: 20%;
+padding-bottom: 20%;
+color: aliceblue;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: aliceblue;
+    background-color: red;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+object-fit: cover;
+}
+
+.staff img {
+    width: 250px;
+    border: 10px solid;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.client img {
+height: auto;
+max-height: 50px;
+}
+
+/* Contact Section */
+.contact-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-container h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #f9a825;
+}
+
+.form-map-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.map-placeholder img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #f9a825;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e38900;
+}
+
+
+
+.social-links .btn {
+    margin: 0 10px;
+  }
+  
+  
